@@ -1,0 +1,99 @@
+@import "./vars";
+@import "./template";
+
+.header-row {
+  max-width: 1440px;
+  height: 40px;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: space-between;
+  .logo-row__logotip {
+    margin-top: 50px;
+    margin-left: 76px;
+    width: 201px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .logo-row__button {
+    margin-top: 50px;
+    margin-right: 74px;
+    width: 115px;
+    height: 38px;
+    border-radius: 100px;
+    border-color: $colorButton;
+    background-color: $colorButton;
+    color: white;
+  }
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-body__title {
+  margin-top: 90px;
+  margin-left: 126px;
+  margin-bottom: 10px;
+  width: 542px;
+  color: #000;
+  font-family: "Intro", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.header-body__subtitle {
+  width: 487px;
+  margin-left: 126px;
+  color: #000;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.header-body__button {
+  margin-top: 30px;
+  margin-left: 116px;
+  margin-bottom: 200px;
+  width: 270px;
+  height: 84px;
+  border-radius: 100px;
+  flex-shrink: 0;
+  background-color: $colorButton;
+  border-color: $colorButton;
+  color: #fff;
+  font-family: "Intro", Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  .header-menu__link {
+    color: #5222d0;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    margin-bottom: 80px;
+    height: 32px;
+    text-decoration: none;
+  }
+  .header-menu__link:first-child {
+    margin-left: 126px;
+  }
+}
+
+.header-picture {
+  width: 1096.34px;
+  height: 724.313px;
+}
